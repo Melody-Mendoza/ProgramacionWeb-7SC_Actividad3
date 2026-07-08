@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente - Slider</title>
+    <link rel="stylesheet" href="css/componente.css">
+    <script src="js/componente.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Adopta un Amigo Fiel</h1>
+        <p>
+            Conoce algunas mascotas que buscan un hogar lleno de amor.
+        </p>
+    </header>
+    <main>
+        <div id="slider"></div>
+    </main>
+    <script>
+        var mascotas = [
+            {
+                imagen: "img/max.jpg",
+                titulo: "Max",
+                descripcion: "Labrador • 2 años • Muy juguetón y amigable."
+            },
+            {
+                imagen: "img/luna.jpg",
+                titulo: "Luna",
+                descripcion: "Gatita • 1 año • Cariñosa y tranquila."
+            },
+            {
+                imagen: "img/rocky.jpg",
+                titulo: "Rocky",
+                descripcion: "Mestizo • 3 años • Le encanta correr y jugar."
+            },
+            {
+                imagen: "img/mia.jpg",
+                titulo: "Mía",
+                descripcion: "8 meses • Muy curiosa y sociable."
+            },
+            {
+                imagen: "img/toby.jpg",
+                titulo: "Toby",
+                descripcion: "Beagle • 4 años • Excelente compañero para familias."
+            },
+            {
+                imagen: "img/naye.jpg",
+                titulo: "Nani",
+                descripcion: "2 años • Muy tranquila y elegante."
+            },
+            {
+                imagen: "img/bruno.jpg",
+                titulo: "Bruno",
+                descripcion: "Pastor Alemán • 5 años • Protector y obediente."
+            },
+            {
+                imagen: "img/kira.jpg",
+                titulo: "Kira",
+                descripcion: "1 año • Muy juguetona y llena de energía."
+            }
+
+        ];
+        crearSlider("slider",mascotas,"Gracias por interesarte en adoptar a ");
+    </script>
+</body>
+
+</html>
