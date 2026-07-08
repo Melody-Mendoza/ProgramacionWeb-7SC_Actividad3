@@ -117,3 +117,5 @@ function mostrarToast(mensaje) {
     }, 3000);
 
 }
+
+window.cambiarImagen= cambiarImagen;
