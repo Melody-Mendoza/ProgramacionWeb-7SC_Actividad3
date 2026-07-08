@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componente - Slider</title>
     <link rel="stylesheet" href="css/componente.css">
-    <script src="js/componente.js"></script>
 </head>
 
 <body>
@@ -19,7 +18,8 @@
     <main>
         <div id="slider"></div>
     </main>
-    <script>
+    <script type="module">
+        import { crearSlider } from "./js/componente.js";
         var mascotas = [
             {
                 imagen: "img/max.jpg",
@@ -63,7 +63,7 @@
             }
 
         ];
-        crearSlider("slider",mascotas,"Gracias por interesarte en adoptar a ");
+        crearSlider("slider", mascotas, "Gracias por interesarte en adoptar a ");
     </script>
 </body>
 
